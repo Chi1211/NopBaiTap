@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quản lý danh bạ</string>
+    <string name="name">Họ và tên</string>
+    <string name="number">Số điện thoại</string>
+    <string name="Gender">Giới tính</string>
+    <string name="Nam">Nam</string>
+    <string name="Nu">Nữ</string>
+    <string name="add_contact">THÊM VÀO DANH BẠ</string>
+    <string name="callormessage">Bạn muốn gọi hay nhắn tin</string>
+    <string name="call">Gọi</string>
+    <string name="mess">Nhắn tin</string>
+    <string name="callormess">Bạn muốn gọi hay nhắn tin</string>
+    <string name="callormessa">Bạn muốn gọi hay nhắn tin?</string>
+    <string name="delorupdate">Bạn muốn sửa hay xóa?</string>
+    <string name="del">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="update">Sửa</string>
+</resources>

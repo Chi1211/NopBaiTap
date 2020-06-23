@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConstrainLayout</string>
+    <string name="Login_inputpass">Nhập password</string>
+    <string name="login.title">LOGIN PAGE</string>
+</resources>

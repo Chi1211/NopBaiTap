@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:orientation="vertical"
+    android1:id="@+id/activity_main"
+    android1:layout_margin="15dp"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent">
+
+    <EditText
+        android1:id="@+id/edt_name"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_marginBottom="15dp"
+        android1:hint="@string/name"
+        android1:textSize="20sp" />
+
+    <EditText
+        android1:id="@+id/edt_number"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_marginBottom="15dp"
+        android1:hint="@string/number"
+        android1:textSize="20sp"
+        android1:inputType="number" />/>
+
+    <TextView
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_marginBottom="15dp"
+        android1:text="@string/Gender"
+        android1:textSize="20sp" />
+    <RadioGroup
+        android1:orientation="horizontal"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content">
+
+        <RadioButton
+            android1:checked="true"
+            android1:id="@+id/rbtn_nam"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_weight="1"
+            android1:text="@string/Nam"
+            android1:textSize="20sp" />
+
+        <RadioButton
+            android1:id="@+id/rbtn_nu"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_weight="1"
+            android1:text="@string/Nu"
+            android1:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android1:onClick="show"
+        android1:id="@+id/btn_themdb"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center"
+        android1:layout_margin="20dp"
+        android1:background="#88EDFA"
+        android1:padding="10dp"
+        android1:text="@string/add_contact"
+        android1:textColor="#190930"
+        android1:textSize="16sp" />
+    <ListView
+        android1:id="@+id/lv_contact"
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent"/>
+</LinearLayout>

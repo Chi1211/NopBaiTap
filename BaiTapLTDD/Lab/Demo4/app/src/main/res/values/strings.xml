@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Demo4</string>
+    <string name="ht">Họ và tên</string>
+    <string name="ns">Năm sinh</string>
+    <string name="button">Button</string>
+    <string name="tinhtuoi">Tính tuổi</string>
+    <string name="So">so</string>
+</resources>
